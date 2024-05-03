@@ -18,8 +18,8 @@ st.title("Split-panel Map")
 with st.expander("See source code"):
     with st.echo():
         m = leafmap.Map()
-        before = "https://github.com/PC-chandana/streamlit-maps/blob/main/DubaiFloodBefore.png"
-        after = "https://github.com/PC-chandana/streamlit-maps/blob/main/DubaiFloodAfter.png"
+        before = "https://github.com/PC-chandana/streamlit-maps/blob/main/FCC.tiff"
+        after = "https://github.com/PC-chandana/streamlit-maps/blob/main/onlyMG.tif"
         m.split_map(
             left_layer=before, 
             right_layer=after,
